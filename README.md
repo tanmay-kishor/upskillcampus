@@ -1,23 +1,31 @@
-# 🌱 Crop and Weed Detection using YOLOv8
+# 🚀 Data Science & Machine Learning Internship Projects
 
-## 📌 Overview
+## 📌 About
 
-This project was completed as part of the **6-Week Virtual Internship Program** conducted by **upSkill Campus (USC_TIA Platform)** in collaboration with **Uniconverge Technologies (P) Ltd.**
+This repository contains the projects completed during the **6-Week Virtual Internship Program** organized by **upSkill Campus** in collaboration with **Uniconverge Technologies Pvt. Ltd.**
 
-The objective of this project is to develop a Computer Vision model capable of detecting **crops** and **weeds** from agricultural field images using the YOLOv8 object detection framework. Accurate weed detection can help enable precision agriculture by allowing pesticides to be sprayed only on weeds, reducing chemical usage and improving crop productivity.
-
----
-
-## 🎯 Objectives
-
-- Detect crops and weeds in agricultural field images.
-- Train an object detection model using the YOLOv8 framework.
-- Evaluate detection performance on unseen images.
-- Save the trained model for future deployment.
+The internship focused on applying Machine Learning and Deep Learning techniques to solve real-world problems in agriculture and industrial manufacturing.
 
 ---
 
-## 🛠️ Technologies Used
+## 📂 Projects Included
+
+### 🌱 Project 5 – Crop & Weed Detection using YOLOv8
+
+**Objective**
+
+Develop an object detection model capable of identifying **crops** and **weeds** from agricultural field images.
+
+**Highlights**
+
+- YOLOv8 Object Detection
+- Agricultural Image Processing
+- YOLO Annotation Format
+- Train / Validation / Test Dataset Split
+- Detection on Unseen Images
+- Trained Model Export
+
+**Technologies**
 
 - Python
 - Google Colab
@@ -28,65 +36,96 @@ The objective of this project is to develop a Computer Vision model capable of d
 
 ---
 
-## 📂 Dataset
+### ⛏️ Project 10 – Quality Prediction in a Mining Process
 
-The dataset contains approximately **1300 annotated agricultural images**.
+**Objective**
 
-Each image:
+Build a Machine Learning regression model to predict the **% Silica Concentrate** in an industrial flotation plant using sensor data.
 
-- Resolution: **512 × 512**
-- Annotation Format: **YOLO**
-- Classes:
-  - Crop
-  - Weed
+**Highlights**
 
----
+- Industrial Data Analysis
+- Data Cleaning
+- Feature Engineering
+- Correlation Analysis
+- Regression Model Training
+- Model Evaluation
+- Feature Importance Analysis
 
-## ⚙️ Workflow
+**Technologies**
 
-1. Dataset Preparation
-2. Train / Validation / Test Split
-3. YOLO Dataset Configuration
-4. Model Training
-5. Model Evaluation
-6. Object Detection on Test Images
-7. Save Best Trained Model
-
----
-
-## 📊 Model
-
-- Framework: YOLOv8 Nano
-- Image Size: 512 × 512
-- Epochs: 30
-- Optimizer: Adam
+- Python
+- Google Colab
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- XGBoost
 
 ---
 
-```
+## 🛠 Skills Demonstrated
+
+- Data Preprocessing
+- Exploratory Data Analysis (EDA)
+- Computer Vision
+- Object Detection
+- Machine Learning
+- Deep Learning
+- Feature Engineering
+- Model Evaluation
+- Regression Analysis
+- Model Deployment Preparation
 
 ---
 
-## 🚀 Results
 
-The trained model successfully detects:
+---
 
-- Crop
-- Weed
+## 📊 Project Outcomes
 
-using bounding boxes on agricultural images.
+### Crop & Weed Detection
+
+- Successfully trained a YOLOv8 object detection model.
+- Detected crops and weeds using bounding box predictions.
+- Saved the trained model for future deployment.
+
+### Mining Quality Prediction
+
+- Successfully built a regression model to predict silica concentration.
+- Evaluated model performance using MAE, RMSE, and R² Score.
+- Saved the trained model for future predictions.
+
+---
+
+## 💻 Technologies Used
+
+- Python
+- Google Colab
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- OpenCV
+- Scikit-learn
+- XGBoost
+- Ultralytics YOLOv8
 
 ---
 
 ## 📚 Learning Outcomes
 
-During this project I learned:
+Throughout this internship, I gained practical experience in:
 
-- Object Detection using YOLOv8
-- Preparing datasets in YOLO format
-- Training deep learning models using Google Colab
-- Evaluating object detection models
-- Saving and reusing trained models
+- Data preprocessing and cleaning
+- Computer Vision using YOLOv8
+- Object Detection
+- Machine Learning Regression
+- Feature Engineering
+- Model Evaluation
+- Industrial Data Analytics
+- Building end-to-end Machine Learning workflows using Google Colab
 
 ---
 
@@ -94,8 +133,14 @@ During this project I learned:
 
 **Tanmay Kishor**
 
-B.Tech Computer Science Engineering
+B.Tech – Computer Science Engineering
 
-Virtual Internship – Data Science & Machine Learning
+Virtual Internship Program
 
-upSkill Campus | Uniconverge Technologies Pvt. Ltd.
+upSkill Campus × Uniconverge Technologies Pvt. Ltd.
+
+---
+
+## ⭐ Acknowledgements
+
+I would like to thank **upSkill Campus** and **Uniconverge Technologies Pvt. Ltd.** for providing this internship opportunity and practical industry-oriented projects that enhanced my understanding of Machine Learning and Deep Learning applications.
