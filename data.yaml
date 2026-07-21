@@ -1,0 +1,8 @@
+names:
+- crop
+- weed
+nc: 2
+path: /content/dataset
+test: test/images
+train: train/images
+val: valid/images
